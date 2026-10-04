@@ -148,3 +148,11 @@ footer {
 .project-card .credits li {
   margin-bottom: 2px;
 }
+
+.about img {
+  display: block;
+  max-width: 300px; /* Adjust this number to make it smaller or larger */
+  height: auto;
+  margin: 0 auto 20px auto; /* Centers the image and adds space below it */
+  border-radius: 8px; /* Optional: gives the image nice rounded corners */
+}
