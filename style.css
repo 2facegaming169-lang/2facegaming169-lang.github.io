@@ -55,7 +55,7 @@ nav a:hover {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr;
   gap: 24px;
   max-width: 1000px;
   margin: 0 auto;
@@ -135,4 +135,16 @@ footer {
 
 .socials a:hover {
   color: #eee;
+}
+
+.project-card .credits {
+  list-style: none;
+  margin: 0 20px 16px;
+  padding: 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.project-card .credits li {
+  margin-bottom: 2px;
 }
